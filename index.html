@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="main">
+            <!-- -----------------homepage--------------------------- -->
+            <div class="box-layer">
+                <div class="title">Countdown Timer</div>
+                <!-- ----------------set time----------- -->
+                <div class="set-time">
+                    <div>
+                        <label for="setMinutes">Set Minutes:</label>
+                        <input type="number" id="setMinutes" min="0" value="0">
+                    </div>
+                    <div>
+                        <label for="setSeconds">Set Seconds:</label>
+                        <input type="number" id="setSeconds" min="0" max="59" value="0">
+                    </div>
+                </div>
+                 <!-- ----------------seted time and value to be shown-------------------- -->
+                <div class="col">
+                    <div>
+                        <input type="text" id="minutes" value="0"><br>
+                        <label for="">Minutes</label>
+                    </div>
+                    <div>
+                        <input type="text" id="seconds" value="0"><br>
+                        <label for="">Seconds</label>
+                    </div>
+                </div>
+                <!-- ------------------buttons----------------------- -->
+                <div class="controls">
+                    <button id="startButton">Start</button>
+                    <button id="stopButton">Stop</button>
+                    <button id="resetButton">Reset</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <div class="copyright">
+        <p>copyright &copy; made by Bijoy</p>
+    </div>
+</footer>
+</html>
